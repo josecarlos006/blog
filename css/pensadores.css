@@ -17,14 +17,14 @@
     min-width: 50%;
     width: 50%;
     min-height: 100px;
-    margin-left: 15%;
+    margin-left: 20%;
     margin-top: 15px;
 }
 .frase{
     min-height: 100px;
     margin-top: 30px;
-    font-size: 0.875rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 200;
     color: var(--second-color);
 }
