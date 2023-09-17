@@ -189,6 +189,7 @@ button {
     min-width: 50%;
     width: 50%;
     min-height: 100px;
+    margin-left: 25%;
 }
 
 .post-date {
@@ -198,6 +199,15 @@ button {
     text-transform: uppercase;
     font-weight: 400;
     color: var(--bg-color);
+}
+.post-img {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: var(--second-color);
 }
 
 .profile {

@@ -1,0 +1,30 @@
+.title-kant {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #111;
+    font-size: 2rem;
+}
+
+.kant-txt {
+    color: #111;
+    font-size: 1em;
+}
+
+.img-pensadores {
+    border: var(--text-color);
+    box-shadow: 0 2px 5px hsl(3 5% 14% / 10%);
+    min-width: 50%;
+    width: 50%;
+    min-height: 100px;
+    margin-left: 25%;
+}
+.frase{
+    min-height: 100px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: var(--second-color);
+}
