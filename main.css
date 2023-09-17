@@ -142,10 +142,12 @@ button {
 .home {
     width: 100%;
     min-height: 440px;
-    background: url("/src/img/background.jpeg");
     display: grid;
     justify-content: center;
     align-items: center;
+}
+.home{
+    background: url("./img/background.jpeg");
 }
 
 .home-text {
