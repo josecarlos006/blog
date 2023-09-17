@@ -5,28 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
 
-    <link rel="stylesheet" href="/src/css/biografia.css">
+    <link rel="stylesheet" href="/main.css">
+    <script src="/js/biografia.js"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/68d91cb076.js" crossorigin="anonymous"></script>
 
-    <title>Biografia</title>
-    <link rel="shortcut icon" href="src/img/unnamed.ico" type="image/x-icon">
+    <title>Vamos Filosofar | Biografia</title>
+    <link rel="shortcut icon" href="/img/unnamed.ico" type="image/x-icon">
 </head>
 
 <body>
-    <header>
-        <div class="nav container">
-
-            <a href="#" class="logo">Vamos <span>Filosofar</span></a>
-
-            <a href="/index.html" class="btn-menu">Blog</a>
-            <a href="aulas.html" class="btn-menu">Aulas</a>
-            <a href="projetos.html" class="btn-menu">Projetos</a>
-            <a href="pensadores.html" class="btn-menu">Pensadores</a>
-
-            <a href="login.html" class="login">Sign Up</a>
-        </div>
-    </header>
+    <div class="contenedor-header">
+        <header>
+            <div>
+                <a href="#" class="logo">Vamos <span>Filosofar</span></a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="/index.html" onclick="selecionar()">Blog</a></li>
+                    <li><a href="/html/aulas.html" onclick="selecionar()">Aulas</a></li>
+                    <li><a href="/html/projetos.html" onclick="selecionar()">Projetos</a></li>
+                    <li><a href="/html/pensadores.html" onclick="selecionar()">Pensadores</a></li>
+                    <li><a href="/html/login.html" onclick="selecionar()">Cadastre-se</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    
+    </div>
 
     <section class="home" id="home">
         <div class="home-text container">

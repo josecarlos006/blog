@@ -1,39 +1,44 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="/src/css/aulas.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="https://kit.fontawesome.com/68d91cb076.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/main.css">
+    <script src="/js/aula.js"></script>
+    <link rel="shortcut icon" href="/img/unnamed.ico" type="image/x-icon">
 
-    <title>Aulas</title>
-    <link rel="shortcut icon" href="src/img/unnamed.ico" type="image/x-icon">
+    <title>Vamos Filosofar | Aulas</title>
 </head>
-
 <body>
-    <header>
-        <div class="nav container">
-
-            <a href="#" class="logo">Vamos <span>Filosofar</span></a>
-
-            <a href="/index.html" class="btn-menu">Blog</a>
-            <a href="projetos.html" class="btn-menu">Projetos</a>
-            <a href="pensadores.html" class="btn-menu">Pensadores</a>
-            <a href="biografia.html" class="btn-menu">Biografia</a>
-
-            <a href="login.html" class="login">Sign Up</a>
-        </div>
-    </header>
-
+    <div class="contenedor-header">
+        <header>
+            <div>
+                <a href="#" class="logo">Vamos <span>Filosofar</span></a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="/index.html" onclick="selecionar()">Blog</a></li>
+                    <li><a href="/html/projetos.html" onclick="selecionar()">Projetos</a></li>
+                    <li><a href="/html/pensadores.html" onclick="selecionar()">Pensadores</a></li>
+                    <li><a href="/html/biografia.html" onclick="selecionar()">Biografia</a></li>
+                    <li><a href="/html/login.html" onclick="selecionar()">Cadastre-se</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    
+    </div>
     <section class="home" id="home">
         <div class="home-text container">
             <h2 class="home-title">Aulas</h2>
             <span class="home-subtitle">"Somos Eternos Aprendizes"</span>
         </div>
     </section>
+
     <section class="post container" id="post">
         <div class="contentBx">
             <h1 class="titleTxT">Not Found!!!!!!!!</h1>
@@ -41,10 +46,5 @@
         </div>
     </section>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="./src/js/main.js"></script>
 </body>
-
 </html>
