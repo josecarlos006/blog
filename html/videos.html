@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vamos Filosofar | Videos</title>
+
+    <link rel="shortcut icon" href="/img/unnamed.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="/main.css">
+
+    <script src="/main.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/68d91cb076.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div>
+                <a href="#" class="logo">Vamos <span>Filosofar</span></a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="/index.html" onclick="selecionar()">Blog</a></li>
+                    <li><a href="/html/aulas.html" onclick="selecionar()">Aulas</a></li>
+                    <li><a href="/html/projetos.html" onclick="selecionar()">Projetos</a></li>
+                    <li><a href="/html/pensadores.html" onclick="selecionar()">Pensadores</a></li>
+                    <li><a href="/html/biografia.html" onclick="selecionar()">Biografia</a></li>
+                    <li><a href="/html/login.html" onclick="selecionar()">Cadastre-se</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+
+    </div>
+
+    <section class="home" id="home">
+        <div class="home-text container">
+            <h2 class="home-title">Videos</h2>
+            <span class="home-subtitle">"Somos Eternos Aprendizes"</span>
+        </div>
+    </section>
+    <section class="post container" id="post">
+        <div class="contentBx">
+            <h1 class="titleTxT">Metáfora: Camelo, Leão e a Criança | Nietzsche</h1>
+            <span class="post-date">19 de Set. de 2023</span>
+            <video src="/img/videos/Metáfora_ Camelo, Leão e a Criança Nietzsche👍.mp4" frameborder="20" width="375px" height="250px"
+            controls
+            muted
+            autoplay></video>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./src/js/main.js"></script>
+</body>
+
+</html>
