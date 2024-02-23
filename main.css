@@ -56,6 +56,8 @@ button {
 /* MENU */
 .contenedor-header {
     background: url("./img/back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     position: fixed;
     width: 100%;
     top: 0;
@@ -76,10 +78,12 @@ button {
     font-size: 40px;
     text-decoration: none;
 }
-.logo{
+
+.logo {
     color: var(--second-color);
 }
-.logo span{
+
+.logo span {
     color: var(--bg-color);
 }
 
@@ -103,12 +107,15 @@ button {
 
 .nav-responsive {
     background: url("/img/back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
     display: none;
 }
+
 .about {
     position: relative;
     width: 100%;
@@ -116,9 +123,11 @@ button {
     box-shadow: 0 1px 4px hsl(1 4% 14% / 10%);
     border: #111;
 }
-.titleText{
+
+.titleText {
     margin-bottom: 30px;
 }
+
 .btn-readmore {
     position: relative;
     display: inline-block;
@@ -146,8 +155,11 @@ button {
     justify-content: center;
     align-items: center;
 }
-.home{
+
+.home {
     background: url("./img/back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .home-text {
@@ -171,7 +183,7 @@ button {
     border: #111;
     position: relative;
     width: 100%;
-    
+
 }
 
 .titleTxT {
@@ -185,7 +197,7 @@ button {
     font-size: 1em;
 }
 
-.post .img-post{
+.post .img-post {
     border: var(--text-color);
     box-shadow: 0 2px 5px hsl(3 5% 14% / 10%);
     min-width: 50%;
@@ -202,6 +214,7 @@ button {
     font-weight: 400;
     color: var(--bg-color);
 }
+
 .post-img {
     display: flex;
     margin-top: 20px;
