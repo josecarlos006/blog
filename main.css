@@ -19,6 +19,9 @@ html {
     --second-color: #4000ff;
     --text-color: black;
     --bg-color: #00d5fb;
+    --color-button-insta: #ff00f7;
+    --color-button-github: black;
+    --color-button-portifolio: #09f905;
 }
 
 ::selection {
@@ -42,18 +45,52 @@ section {
     padding: 3rem 0 2rem;
 }
 
-button {
+.bt-insta {
+    color: var(black);
     text-decoration: none;
     background: none;
     border-radius: 20px;
     padding: 10px 20px;
-    border: 2px solid #0138ff;
+    border: 2px solid black;
     transition: background-color 0.3s, border-color 0.3s;
 }
 
-button:hover {
-    background-color: var(--bg-color);
-    border-color: var(--bg-color);
+.bt-insta:hover {
+    color: black;
+    background-color: var(--color-button-insta);
+    border-color: var(--color-button-insta);
+}
+
+.bt-github {
+    color: var(black);
+    text-decoration: none;
+    background: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.bt-github:hover {
+    color: white;
+    background-color: var(--color-button-github);
+    border-color: var(--color-button-github);
+}
+
+.bt-portifolio {
+    color: var(black);
+    text-decoration: none;
+    background: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.bt-portifolio:hover {
+    color: white;
+    background-color: var(--color-button-portifolio);
+    border-color: var(--color-button-portifolio);
 }
 
 .container {
