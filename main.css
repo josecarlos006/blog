@@ -16,9 +16,9 @@ html {
 
 :root {
     --container-color: black;
-    --second-color: #aaff00;
+    --second-color: #4000ff;
     --text-color: black;
-    --bg-color: #fb7d00;
+    --bg-color: #00d5fb;
 }
 
 ::selection {
@@ -55,7 +55,7 @@ button {
 
 /* MENU */
 .contenedor-header {
-    background: url("./img/background.jpeg");
+    background: url("./img/back.png");
     position: fixed;
     width: 100%;
     top: 0;
@@ -102,7 +102,7 @@ button {
 }
 
 .nav-responsive {
-    background: url("/img/background.jpeg");
+    background: url("/img/back.png");
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -147,7 +147,7 @@ button {
     align-items: center;
 }
 .home{
-    background: url("./img/background.jpeg");
+    background: url("./img/back.png");
 }
 
 .home-text {
