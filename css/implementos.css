@@ -11,7 +11,7 @@
     font-size: 1em;
 }
 
-.img-pensadores {
+.img-programadores {
     border: var(--text-color);
     box-shadow: 0 2px 5px hsl(3 5% 14% / 10%);
     min-width: 50%;
@@ -20,7 +20,8 @@
     margin-left: 20%;
     margin-top: 15px;
 }
-.frase{
+
+.frase {
     min-height: 100px;
     margin-top: 30px;
     font-size: 0.8rem;
@@ -28,7 +29,8 @@
     font-weight: 200;
     color: var(--second-color);
 }
-iframe{
+
+iframe {
     display: flex;
     justify-content: center;
     align-items: center;
