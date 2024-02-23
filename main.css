@@ -291,6 +291,7 @@ section {
     font-size: .8rem;
     margin-top: 30px;
     font-weight: 500;
+    color: var(--bg-color);
 }
 
 @media screen and (max-width:980px) {
