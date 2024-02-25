@@ -226,6 +226,7 @@ section {
 }
 
 .post {
+    top: 25px;
     border-radius: 20px;
     padding: 50px;
     box-shadow: 0 1px 4px hsla(0, 2%, 8%, 5);
