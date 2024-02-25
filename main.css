@@ -53,6 +53,7 @@ section {
     padding: 10px 20px;
     border: 2px solid black;
     transition: background-color 0.3s, border-color 0.3s;
+    cursor: pointer;
 }
 
 .bt-insta:hover {
@@ -69,6 +70,7 @@ section {
     padding: 10px 20px;
     border: 2px solid black;
     transition: background-color 0.3s, border-color 0.3s;
+    cursor: pointer;
 }
 
 .bt-github:hover {
@@ -85,6 +87,7 @@ section {
     padding: 10px 20px;
     border: 2px solid black;
     transition: background-color 0.3s, border-color 0.3s;
+    cursor: pointer;
 }
 
 .bt-portifolio:hover {
@@ -223,13 +226,18 @@ section {
 }
 
 .post {
-    top: 25px;
     border-radius: 20px;
-    box-shadow: 0 1px 4px hsl(1 4% 14% / 10%);
+    padding: 50px;
+    box-shadow: 0 1px 4px hsla(0, 2%, 8%, 5);
     border: #111;
     position: relative;
     width: 100%;
-
+}
+.post-ze{
+    top: 25px;
+}
+.post-bg{
+    top: 45px;
 }
 
 .titleTxT {
